@@ -4,6 +4,15 @@ Private code used by NWAJuiceShop.com.
 
 This repository exists to help print our shipping labels for products sold via NWA Juice Shop.
 
+## Project Overview
+Cronjobs are the best!
+
+Install with `crontab -e`.
+
+You must install this script as the `root` user.
+
+Learn more about cron here: [https://linuxhint.com/cron_jobs_complete_beginners_tutorial/](https://linuxhint.com/cron_jobs_complete_beginners_tutorial/)
+
 ## Project History
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis augue et semper imperdiet. Pellentesque eleifend, augue quis condimentum efficitur, nibh nunc efficitur tortor, et molestie urna sem at justo. Etiam non sodales orci. Integer eget euismod augue. Pellentesque posuere scelerisque enim a condimentum. Aenean pharetra nibh non fermentum ultrices. Ut accumsan accumsan erat, vitae venenatis lorem lacinia id. Vestibulum eget euismod nunc. Phasellus et dolor nec nisi volutpat cursus efficitur varius justo. Aliquam in tellus nec ipsum tristique efficitur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque porta, elit vitae laoreet malesuada, dui eros finibus ligula, et egestas purus metus non nulla. Quisque scelerisque lectus ipsum. Phasellus vitae rhoncus orci. Sed arcu erat, tempus at eros a, commodo vehicula quam.
 
