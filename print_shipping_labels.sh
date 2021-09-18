@@ -1,6 +1,8 @@
 #!/bin/bash
 # Installed at /cron/print_shipping_labels.sh
 # Created: September 2021
+# jhunter@nwajuiceshop.com
+# http://nwajuiceshop.com
 
 print_labels() {
   echo "[+] Printing shipping labels"
