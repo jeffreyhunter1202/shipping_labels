@@ -6,7 +6,7 @@ print_labels() {
 
 echo "[+] Starting $(date)"
 
-print_labels()
+print_labels
 
 echo "[+] End time: $(date)"
 
