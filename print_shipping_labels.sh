@@ -5,8 +5,12 @@
 # jhunter@nwajuiceshop.com
 # http://nwajuiceshop.com
 
+ftp_connect() {
+  echo "[+] Connecting to FTP server..."
+}
+
 print_labels() {
-  echo "[+] Printing shipping labels"
+  echo "[+] Uploading shipping labels to FTP server..."
 }
 
 # Check we're running as root
