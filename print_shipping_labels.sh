@@ -5,25 +5,26 @@
 # jhunter@nwajuiceshop.com
 # http://nwajuiceshop.com
 
+# HOST is set security in environment variable
 USER=jhunter
 # PASSWD is set securely in environment variable
 
 ftp_connect() {
   echo "[+] Connecting to FTP server..."
   ftp -n $HOST <<END_SCRIPT
-    quote USER $USER
-    quote PASS $PASSWD
-    binary
-    put $FILE
-    quit
-  END_SCRIPT
+quote USER $USER
+quote PASS $PASSWD
+binary
+put $FILE
+quit
+END_SCRIPT
 }
 
 print_labels() {
   FILE="daily_orders.txt"
   echo "[+] Uploading shipping labels to FTP server..."
   if [ -f "$FILE" ]; then
-    echo "Found $FILE"
+    echo "[+] Found $FILE"
     ftp_connect $FILE
   fi
 }
