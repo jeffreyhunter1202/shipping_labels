@@ -1,5 +1,5 @@
 #!/bin/bash
-# Installed at /cron/print_shipping_labels.sh
+# Installed at /cron/jobs/print_shipping_labels.sh
 # `chmod 766 print_shipping_labels.sh`
 # Created: September 2021
 # jhunter@nwajuiceshop.com
